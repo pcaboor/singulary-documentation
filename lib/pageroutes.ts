@@ -1,16 +1,18 @@
 import { Documents } from "@/settings/documents"
+import { ElementType } from "react"
 
 export type Paths =
   | {
-      title: string
-      href: string
-      noLink?: true
-      heading?: string
-      items?: Paths[]
-    }
+    title: string
+    href: string
+    noLink?: true
+    heading?: string
+    items?: Paths[]
+    icon?: ElementType
+  }
   | {
-      spacer: true
-    }
+    spacer: true
+  }
 
 export const Routes: Paths[] = [...Documents]
 

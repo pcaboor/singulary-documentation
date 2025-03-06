@@ -4,11 +4,12 @@ import { GeistMono } from "geist/font/mono"
 import { GeistSans } from "geist/font/sans"
 
 import { Settings } from "@/lib/meta"
-import { Footer } from "@/components/navigation/footer"
+
 import { Navbar } from "@/components/navigation/navbar"
 import { ThemeProvider } from "@/components/theme-provider"
 
 import "./globals.css"
+
 
 const baseUrl = Settings.metadataBase
 
@@ -63,7 +64,6 @@ export default function RootLayout({
         >
           <Navbar />
           <main className="px-5 sm:px-8 h-auto">{children}</main>
-          <Footer />
         </ThemeProvider>
       </body>
     </html>

@@ -1,0 +1,57 @@
+---
+title: Prompt
+description: On ne vous apprend rien mais construire un prompt est plus complexe qu'il n'y parait. Si vous voulez tirer le meilleur de Singulary et maximiser la pertinence de la réponse, vous devez construire un prompt solide et complet.
+keywords: ["introduction", "guide", "nextjs", "documents"]
+---
+
+Dans cette section nous allons vous dévoiler, comment construire un prompt parfait pour faire évoluer vos projets Singulary.
+
+
+<Step>
+<StepItem title="Comprendre votre besoin">
+
+Avant de commencer à poser une question a Singulary vous devez définir votre besoin, **Mon besoin concerne-t-il le backend, le frontend ?, une api ? ...**.
+
+En fessant cela, vous resserez le champ des possibles et vous multipliez par 10 vos chances d'obtenir une réponse pertinante.
+
+
+</StepItem>
+<StepItem title="Constuire votre question">
+Un des gros points fort de Singulary est que vous pouvez générer automatiquement des documentations pour vos projets. Imaginons que vous souhaitez partager a vos collaborateurs votre vision, vous pouvez.
+
+Pour ce faire vous n'avez qu'a créer un projet Singulary, vous rendre ensuite dans l'outil **Documentation** et cliquer sur générer.
+
+<Mermaid
+  chart={`erDiagram
+    UTILISATEUR ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    PRODUCT ||--o{ LINE-ITEM : "included in"
+    UTILISATEUR {
+        string question
+    }
+    ORDER {
+        int orderNumber
+        date orderDate
+    }
+    LINE-ITEM {
+        int quantity
+        float price
+    }
+    PRODUCT {
+        int productId
+        string name
+        float price
+    }`}
+/>
+
+</StepItem>
+<StepItem title="Analiser la réponse de Singulary">
+You’ll need a code editor to work on the project. Common options include:
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [WebStorm](https://www.jetbrains.com/webstorm/)
+- Any other text editor you prefer.
+
+</StepItem>
+</Step>
+

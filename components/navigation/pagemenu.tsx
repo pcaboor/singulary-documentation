@@ -22,7 +22,7 @@ export default function PageMenu({ isSheet = false }) {
         return (
           <div key={item.title + index} className="mb-2">
             {item.heading && (
-              <h2 className="text-sm font-bold mb-2">{item.heading}</h2>
+              <h2 className="text-xl font-bold mb-2">{item.heading}</h2>
             )}
             <SubLink
               {...{
@@ -30,6 +30,7 @@ export default function PageMenu({ isSheet = false }) {
                 href: `/docs${item.href}`,
                 level: 0,
                 isSheet,
+
               }}
             />
           </div>

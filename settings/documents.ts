@@ -4,19 +4,39 @@ export const Documents: Paths[] = [
   {
     title: "Introduction",
     href: "/introduction",
-    heading: "Getting started",
+    heading: "Commencer",
     items: [
       {
-        title: "Installation",
-        href: "/installation",
+        title: "Utilisation",
+        href: "/utilisation",
       },
       {
-        title: "Setup",
-        href: "/setup",
+        title: "Fonctionnement",
+        href: "/fonctionnement",
       },
       {
-        title: "Changelog",
-        href: "/changelog",
+        title: "Outils",
+        href: "/outils",
+      },
+      {
+        title: "Tokens",
+        href: "/token",
+      },
+      {
+        title: "Commits",
+        href: "/commits",
+      },
+      {
+        title: "Conversations",
+        href: "/conversations",
+      },
+      {
+        title: "Prompt",
+        href: "/prompt",
+      },
+      {
+        title: "Vos données",
+        href: "/vosdonnees",
       },
     ],
   },
@@ -24,9 +44,9 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Navigation",
+    title: "Singulary",
     href: "/navigation",
-    heading: "Documents",
+    heading: "Machine Learning",
   },
   {
     title: "Structure",
@@ -53,47 +73,47 @@ export const Documents: Paths[] = [
   {
     spacer: true,
   },
-  {
-    title: "Markdown",
-    href: "/markdown",
-    heading: "Components",
-    items: [
-      {
-        title: "Cards",
-        href: "/cards",
-      },
-      {
-        title: "Diagrams",
-        href: "/diagrams",
-      },
-      {
-        title: "Filetree",
-        href: "/filetree",
-      },
-      {
-        title: "Lists",
-        href: "/lists",
-      },
-      {
-        title: "Maths",
-        href: "/maths",
-      },
-      {
-        title: "Notes",
-        href: "/notes",
-      },
-      {
-        title: "Steps",
-        href: "/steps",
-      },
-      {
-        title: "Table",
-        href: "/table",
-      },
-      {
-        title: "Tabs",
-        href: "/tabs",
-      },
-    ],
-  },
+  // {
+  //   title: "Markdown",
+  //   href: "/markdown",
+  //   heading: "Components",
+  //   items: [
+  //     {
+  //       title: "Cards",
+  //       href: "/cards",
+  //     },
+  //     {
+  //       title: "Diagrams",
+  //       href: "/diagrams",
+  //     },
+  //     {
+  //       title: "Filetree",
+  //       href: "/filetree",
+  //     },
+  //     {
+  //       title: "Lists",
+  //       href: "/lists",
+  //     },
+  //     {
+  //       title: "Maths",
+  //       href: "/maths",
+  //     },
+  //     {
+  //       title: "Notes",
+  //       href: "/notes",
+  //     },
+  //     {
+  //       title: "Steps",
+  //       href: "/steps",
+  //     },
+  //     {
+  //       title: "Table",
+  //       href: "/table",
+  //     },
+  //     {
+  //       title: "Tabs",
+  //       href: "/tabs",
+  //     },
+  //   ],
+  // },
 ]

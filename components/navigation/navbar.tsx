@@ -5,10 +5,12 @@ import { LuArrowUpRight, LuGithub } from "react-icons/lu"
 import { buttonVariants } from "@/components/ui/button"
 import { SheetClose } from "@/components/ui/sheet"
 import Anchor from "@/components/navigation/anchor"
-import { Logo } from "@/components/navigation/logo"
+
 import Search from "@/components/navigation/search"
 import { SheetLeft } from "@/components/navigation/sidebar"
 import { ModeToggle } from "@/components/navigation/theme-toggle"
+// import { EyeClosed } from "lucide-react"
+import { Logo } from "./logo"
 
 export function Navbar() {
   return (
@@ -18,6 +20,9 @@ export function Navbar() {
           <SheetLeft />
           <div className="flex items-center gap-6">
             <div className="hidden md:flex">
+              {/* <Link href={"/"}>
+                <EyeClosed />
+              </Link> */}
               <Logo />
             </div>
             <div className="hidden md:flex items-center gap-5 text-sm font-medium text-muted-foreground">

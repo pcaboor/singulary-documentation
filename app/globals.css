@@ -61,7 +61,7 @@
 
 .typography {
   @apply prose prose-zinc prose-headings:scroll-m-20 prose-code:rounded-md prose-code:p-1 prose-code:font-code prose-code:leading-6 prose-code:before:content-none prose-code:after:content-none prose-pre:border prose-pre:bg-neutral-100 prose-img:rounded-md prose-img:border;
-  @apply w-[85vw] !min-w-full pt-2 text-sm prose-code:text-xs sm:mx-auto sm:w-full;
+  @apply w-[85vw] !min-w-full pt-2 prose-code:text-xs sm:mx-auto sm:w-full;
   @apply dark:prose-invert prose-code:text-neutral-800 dark:prose-code:bg-neutral-900 dark:prose-code:text-white dark:prose-pre:bg-neutral-900;
 }
 
@@ -69,11 +69,11 @@
   margin: 0 !important;
 }
 
-.prose ul > li::marker {
+.prose ul>li::marker {
   color: hsl(0, 0%, 29%);
 }
 
-.dark .prose ul > li::marker {
+.dark .prose ul>li::marker {
   color: hsl(0, 0%, 79%);
 }
 
@@ -82,8 +82,7 @@
   color: inherit;
 }
 
-.prose
-  :where(ul > li):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+.prose :where(ul > li):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   padding-inline-start: 0;
 }
 
@@ -114,7 +113,8 @@ pre {
   width: inherit !important;
   overflow-x: auto;
 }
-pre > code {
+
+pre>code {
   display: grid;
   max-width: inherit !important;
   padding: 14px 0 !important;
@@ -159,7 +159,7 @@ pre > code {
   @apply bg-neutral-200/90;
 }
 
-.highlight-comp > code {
+.highlight-comp>code {
   background-color: transparent !important;
 }
 
@@ -239,6 +239,7 @@ span.katex-html {
 .CollapsibleContent {
   overflow: hidden;
 }
+
 .CollapsibleContent[data-state="open"] {
   animation: slideDown 300ms ease-out;
 }
@@ -251,6 +252,7 @@ span.katex-html {
   from {
     height: 0;
   }
+
   to {
     height: var(--radix-collapsible-content-height);
   }
@@ -260,6 +262,7 @@ span.katex-html {
   from {
     height: var(--radix-collapsible-content-height);
   }
+
   to {
     height: 0;
   }

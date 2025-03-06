@@ -6,8 +6,8 @@ export const Navigations = [
     href: `/docs${PageRoutes[0].href}`,
   },
   {
-    title: "Home",
-    href: "https://www.rubixstudios.com.au/",
+    title: "Retourner sur Singulary",
+    href: "http://localhost:3000/",
     external: true,
   },
 ]
